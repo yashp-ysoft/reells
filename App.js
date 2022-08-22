@@ -288,8 +288,7 @@ left:160,
               />
               
              );
-          }}
-        />
+          }}/>
         </TouchableOpacity>
         <View style={{flexDirection:"row",height:30,marginVertical:10}}>
          <Text style={{color:"gray"}}>Top Notes : Bergamot ,Grape Fruit,Apple</Text>
