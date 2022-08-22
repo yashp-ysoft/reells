@@ -213,6 +213,7 @@ left:300,
               <Text style={{alignSelf:"center",color:"#fff"}
               }>{comm}</Text>
                 </TouchableOpacity>
+                
  {/* <TouchableOpacity
                 style={{
                   height: 20,
@@ -285,9 +286,11 @@ left:160,
                 source={{uri: item.url}}
                 style={{height: 200, width:screenWidth}}
               />
+              
              );
           }}
         />
+        </TouchableOpacity>
         <View style={{flexDirection:"row",height:30,marginVertical:10}}>
          <Text style={{color:"gray"}}>Top Notes : Bergamot ,Grape Fruit,Apple</Text>
          <TouchableOpacity style={{height:30,width:60,marginHorizontal:30,backgroundColor:"pink",justifyContent:"center",borderRadius:10}}><Text>exclusive</Text></TouchableOpacity>
@@ -316,7 +319,7 @@ left:160,
 Alters your mood and reality
 Feeling speack of its sensuality ..seemore</Text>
 
-        </TouchableOpacity>
+        
         <View style={{flexDirection:"row"}}
         >
         <TouchableOpacity style={{height:60,width:122,marginHorizontal:30,backgroundColor:"gray",justifyContent:"center",borderRadius:10,alignItems:"center",flexDirection:'row'}}>
